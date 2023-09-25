@@ -1,0 +1,3 @@
+converter png em ico
+
+https://favicon.io/favicon-converter/

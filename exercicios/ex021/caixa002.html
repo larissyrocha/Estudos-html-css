@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset -3px -2px 8px 0px black;
+        }
+
+        main {
+            background-color: rgb(32, 249, 177);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px 0px;
+        }
+
+        nav {
+            background-color: yellowgreen;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.609);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+        
+        article {
+            background-color: cornflowerblue;
+            
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: palevioletred;
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > P {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p>ESPORTE NOTICIAS TECNOLOGIA</p>
+        </section>
+        <section noticias> 
+            <article>
+                <aside>
+                    <h2>NOTICIAS SOBRE O BRASIL</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quod distinctio, eius voluptates autem repellendus fugiat laborum dolorum repudiandae enim eos modi eligendi veritatis quo molestiae deserunt veniam voluptatem sit.</p>
+                </aside>
+            </article>
+            <article>
+                <p>Autor do artigo jose da silva</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvimento peolo cursoemvideo</p>
+    </footer>
+    <div id="bola"</div>
+</body>
+</html>
