@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    font-size: 136px;
+    font-weight: 400;
+
+}
+
+header > P {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.texto > p {
+    font-size: 47px;
+    margin-top: 95px;
+    margin-left: 30px;
+    line-height: 80px;
+    margin-bottom: 100px;
+}
+
+.joaninha {
+    background-image: url('imagens/background001.jpg');
+    background-position: center;
+    padding: 100px 0px;
+    background-attachment: fixed;
+
+}
+
+.joaninha > p {
+    background-color: black;  
+    color: white;
+    font-size: 47px;
+    margin-left: 30px;
+    width: 45%;
+    
+}
+
+.escrita {
+    background-image: url("imagens/background002.jpg");
+    background-position: center;
+    padding: 100px;
+    background-attachment: fixed;
+}
+
+.escrita > P {
+    background-color: rgba(0, 0, 0, 0.667);
+    color: white;
+    font-size: 47px;
+    margin-left: 30px; 
+    width: 45%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+
+
