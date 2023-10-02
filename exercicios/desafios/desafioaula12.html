@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        .notas {
+            text-align: center;
+        }
+
+        .media {
+            background-color: gray;
+            color: white;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col"> Área </th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Mátematica</td>
+                <td class="notas">7</td>
+                <td class="notas">6</td>
+                <td class="notas">9</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td class="notas">6</td>
+                <td class="notas">9</td>
+                <td class="notas">7</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td class="notas">7</td>
+                <td class="notas">8</td>
+                <td class="notas">7</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="notas">8</td>
+                <td class="notas">6</td>
+                <td class="notas">7</td>
+            </tr>
+            <tr class="media">
+                <td colspan="4" >Média de exatas</td>
+                <td>000</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th> 
+                <td>História</td>
+                <td class="notas">8</td>
+                <td class="notas">5</td> 
+                <td class="notas">7</td>           
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="notas">9</td>
+                <td class="notas">8</td>
+                <td class="notas">8</td>
+            </tr>
+            <tr class="media">
+                <td colspan="4">Média de Humanas</td>
+                <td>0000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
