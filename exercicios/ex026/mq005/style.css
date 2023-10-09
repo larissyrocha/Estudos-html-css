@@ -19,7 +19,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: gray;
+    background-color: rgb(24, 24, 24);
     color: white;
     display: block;
     padding: 10px;
@@ -29,7 +29,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
+    background-color: rgb(209, 208, 241);
     color: black;
 }
 menu {
@@ -56,7 +56,7 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-color: aliceblue;
+    background-color: rgb(200, 230, 254);
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -70,5 +70,5 @@ article > h2 {
 article > p {
     text-align: justify;
     margin-bottom: 20px;
-    text-indent: 10px;
+    text-indent: 20px;
 }
