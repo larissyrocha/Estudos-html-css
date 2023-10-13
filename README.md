@@ -18,3 +18,25 @@ A conclusão deste curso não marca apenas uma realização pessoal, mas também
 Agora, estou pronto para contribuir para a comunidade de código aberto e continuar minha exploração no vasto mundo do desenvolvimento web. Mal posso esperar para ver como o que aprendi influenciará meu trabalho e como posso fazer a diferença na web.
 
 Sinta-se à vontade para acompanhar meu progresso e explorar meus projetos aqui no GitHub. Juntos, podemos tornar a web um lugar melhor e mais inclusivo.
+
+
+
+
+
+## <span style="font-size: 24px;">Conclusion of the HTML and CSS Course</span>
+
+I am extremely pleased to share my achievement of completing the HTML and CSS course. This learning journey has not only equipped me with valuable technical skills but has also allowed me to step into the exciting world of web development.
+
+ ## <span style="font-size: 24px;">What I´ve Learned</span>
+
+Throughout the course, I've gained a deep understanding of how to structure content in a clear and semantic way using HTML, which is crucial for creating accessible and search engine-friendly web pages. Additionally, I've learned to breathe life into my pages with CSS, customizing their design and making them visually appealing.
+
+This journey has also taught me the importance of patience and problem-solving as I encountered challenges and errors in the code. Furthermore, I've realized the significance of accessibility, making my web creations inclusive for all users.
+
+## <span style="font-size: 24px;">Next Steps</span>
+
+The completion of this course signifies not just a personal achievement but also the beginning of an exciting journey in web development. I am eager to apply what I've learned, enhance my skills, and tackle more advanced challenges.
+
+I am now prepared to contribute to the open-source community and continue my exploration in the vast world of web development. I can't wait to see how what I've learned will influence my work and how I can make a difference on the web.
+
+Feel free to track my progress and explore my projects here on GitHub. Together, we can make the web a better and more inclusive place.
